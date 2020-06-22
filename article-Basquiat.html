@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>OX – Basquiat</title>
+  <link rel="icon" type="image/svg" href="OX-logo-black-01.svg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+  <header>
+    <a href="home.html"><div class="logo-masthead"><img class="home-logo home-logo-masthead" src="OX-logo-black-01.svg" alt="OX magazine logo"></div></a>
+   
+    <div class="navbar">
+
+      <div class="dropdown dropdown-about">
+        <div class="dropbtn"><a href="About.html">About</a></div>
+        <div class="dropdown-content">
+        </div>
+      </div>
+
+      <div class="home-menu-item-bar home-menu-item-bar1"></div>
+
+      <div class="dropdown dropdown-info">
+        <div class="dropbtn"><a href="#">Info</a></div>
+        <div class="dropdown-content">
+        </div>
+      </div>
+
+      <div class="home-menu-item-bar home-menu-item-bar1"></div>
+
+      <div class="dropdown dropdown-categories">
+        <div class="dropbtn"><a href="#">Categories</a></div>
+        <div class="dropdown-content">
+          <a class="drop-down-item" href="categories-state.html">State</a>
+          <a class="drop-down-item" href="categories-body.html">Body</a>
+          <a class="drop-down-item" href="categories-soul.html">Soul</a>
+        </div>
+      </div>
+
+      <div class="home-menu-item-bar home-menu-item-bar1"></div>
+
+      <div class="dropdown dropdown-shop">
+        <div class="dropbtn"><a href="#">Shop</a></div>
+        <div class="dropdown-content">
+        </div>
+      </div>
+
+      <div class="home-menu-item-bar home-menu-item-bar1"></div>
+
+      <!-- search field -->
+      <div id="myOverlay" class="overlay">
+        <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
+        <div class="overlay-content">
+          <form action="home.html">
+            <input type="text" placeholder="Search..." name="search">
+            <button type="submit"><span class="search-button-go">GO!</span></button>
+          </form>
+        </div>
+      </div>
+
+      <div class="dropdown dropdown-search">
+        <div class="dropbtn"><a href="#"><button class="openBtn" onclick="openSearch()">Search</button></a></div>
+        <div class="dropdown-content">
+        </div>
+      </div>
+      <!-- search field end -->
+
+    </div>
+
+  </header>
+
+
+<main>
+
+<div class="article-page-container">
+
+
+  <div onclick="toggle()" class="toggle-btn" id="_2nd-toggle-btn">
+    <div class="toggle-text">Contrast!</div>
+    <input type="checkbox">
+    <span></span>
+  </div>
+
+  <div  class="article-container">
+
+    <div class="article-navigation">
+      <a href="home.html"><div class="h3-card-ochiello-small article-navigation-home">Home</div></a>
+      <a href="categories-soul.html"><div class="h3-card-ochiello-small article-navigation-cat">SOUL</div></a>
+    </div>
+    <h1 id="article-top" class="article-h1 article-monospace">How Basquiat Became the $60 Million Man</h1>
+    <p class="article-date article-monospace">May 17, 2017</p>
+    <p class="article-author article-monospace">by <span class="article-author-name">Robin Pogrebin</span> & <span class="article-author-name">Scott Reyburn</span></p>
+    <p class="article-bio article-monospace">R.P. has been a reporter for The New York Times since 1995, where she covers cultural institutions, the art world, architecture, and other subjects.</p>
+    <p class="article-bio article-monospace">S.R is a London-based journalist who writes about the art world - and sometimes the real world - for the New York Times. And The Art Newspaper.</p>
+    <div class="article-running-text">
+      
+      <div class="article-img-container article-img-float-right img-Basquiat-1">
+        <img src="images/11-Basquiat/Basquiat-1.jpg" alt="Basquiat" class="article-img">
+        <div class="img-overlay">
+          <div class="img-overlay-text"><span class="img-overlay-text-title">Untitled. </span><span class="img-overlay-text-subtitle"></span><br>A Basquiat painting from 1982, sold for $110.5 million at Sotheby’s recently, setting an auction record for work by any American artist. © 2017 The Estate of Jean-Michel Basquiat/ADAGP, Paris</div>
+        </div>
+      </div>
+
+      <div class="article-img-container article-img-float-left img-Basquiat-2">
+        <img src="images/11-Basquiat/Basquiat-2.jpg" alt="Basquiat" class="article-img">
+        <div class="img-overlay">
+          <div class="img-overlay-text"><span class="img-overlay-text-title">Irony of a Negro Policeman, 1981. </span><span class="img-overlay-text-subtitle"></span><br>1981 This painting by Basquiat was intended to show the control that white society has over African-Americans. The concept of 'Negro policeman' was found ironic to the artist. That black officers were used to enforce rules designed by 'white society.'</div>
+        </div>
+      </div>
+
+      <div class="article-img-container article-img-float-right img-Basquiat-3">
+        <img src="images/11-Basquiat/Basquiat-3.jpg" alt="Basquiat" class="article-img">
+        <div class="img-overlay">
+          <div class="img-overlay-text"><span class="img-overlay-text-title">Untitled. </span><span class="img-overlay-text-subtitle"></span><br>By Jean-Michel Basquiat, brought $57.3 million at auction in 2016. 2017 The Estate of Jean-Michel Basquiat/ADAGP, Paris/ARS, New York. <br>© Kena Betancur/Agence France-Presse.</div>
+        </div>
+      </div>
+
+      <p class="article-paragraph-1">[Update: The painting sold for $110.5 million at auction]</p>
+      <p class="article-paragraph-2">The answer to this remarkable trajectory of Jean-Michel Basquiat, who died at 27 of a drug overdose in 1988, lies in the art market’s unpredictable but powerful alchemy: a combination of raw talent, compelling biography and limited supply.</p>
+      <p class="article-paragraph-3">“And then, on top of that, the cool factor and the mythology,” said Franklin Sirmans, the director of the Pérez Art Museum Miami, an expert on Basquiat. “It’s a great success story that also comes along with a lot of the tragedy people can relate to and what we look to see in our artists — our Kurt Cobains and our Janis Joplins.”</p>
+      <p class="article-paragraph-4">On Thursday night, Sotheby’s will offer Basquiat’s 1982 painting of a face in the shape of a skull, “Untitled,” with a guaranteed price of at least $60 million, an auction high for the artist. And given the current international appetite for his work, that figure could go higher in a bidding war. Such eight-figure sums are a stunning jump in value for a piece that sold for just $19,000 in 1984 to two collectors of emerging artists, Jerry and Emily Spiegel. The work hasn’t been on the market since.</p>
+      <p>High prices are hardly new for Basquiat, art experts note. Last year, he became the highest-grossing American artist at auction, generating $171.5 million from 80 works, according to the Artprice database. The auction high for Basquiat has increased at least tenfold in the last 15 years, soaring to $57.3 million in 2016 with Christie’s spring sale of a 1982 “Untitled” Basquiat owned by the New York collector Adam Lindemann, in which the artist depicts himself as a horned devil amid orange, red, white and black brush strokes.</p>
+      <p>“As the market was accelerating, you had distinguished connoisseurs of modern art who had no hesitation about putting Basquiat beside Picasso,” said the dealer Jeffrey Deitch, who gave the eulogy at the artist’s funeral. “Already he was in a different league than almost any other contemporary artist.”</p>
+      <p>The question is whether price levels will remain this high. Typically, people in the auction world say, a surge in prices prompts collectors to jump on the bandwagon, consigning their works by the same artist. Indeed, after Christie’s success with its Basquiat last spring, it seemed as though everyone wanted in on the action.</p>
+      <p>There are no fewer than 16 Basquiats on offer at Sotheby’s, Christie’s and Phillips’s evening auctions this season, which together represent an estimated minimum value of about $119 million — out of a total of $690 million for the three sales. Basquiat is, both numerically and financially, the week’s heavyweight artist.</p>
+      <p>But most of the Basquiat works to come to auction in the near future are likely to be of lesser importance, auction experts say, which may or may not benefit from the latest Basquiat price. “There will be a large number of people wanting to sell — and most of what they want to sell will be inferior,” said Brett Gorvy, Christie’s former chairman and international head of postwar and contemporary art, who this year became a dealer. “You can have a big high and then weaker paintings will pull down the market to a more sane level.”</p>
+      <p>When it comes to the best of Basquiat, however — generally, works produced between 1981 and 1983 at the start of his short career (though there are also good later pieces) — the demand remains high. Collectors who own top Basquiats don’t want to sell, and museums can’t afford them, so few of his paintings are in major institutions.</p>
+      <p>“It’s a bit like the Warhol Marilyns,” Mr. Gorvy said. “Something huge would have to happen for those to come to market.” And few other artists, he added, “are creating that sort of buzz in the marketplace.”</p>
+      <p>Though Basquiat might be the darling of the market and have a grass-roots popularity, there has been a paucity of big retrospectives in major international museums like the Tate Modern in London or the Museum of Modern Art in New York. A large show, “Basquiat: Boom for Real,” opening at the Barbican Center in London on Sept. 21, will be the first large-scale British exhibition of his work.</p>
+      <p>The $60 million painting at Sotheby’s on Thursday, the most highly valued of New York’s May auction season, has been consigned by Lise Spiegel Wilks, the daughter of Mr. Spiegel, a real estate developer and art collector of Kings Point, N.Y., and his wife Emily. The elder Spiegels both died in 2009, leaving their collection to their daughters, Ms. Wilks and Pamela Sanders. Ms. Sanders has consigned 107 works from her parents’ collection at Christie’s, for a guarantee of  more than $100 million, according to Bloomberg — but none of those works are at the value of her sister’s inherited “Untitled.”</p>
+      <p>“It’s a showstopper,” the Paris dealer Christian Ogier said of the painting. “Basquiat is always good, but here he is at his strongest in color and edginess.”</p>
+      <p>People are also drawn to Basquiat’s personal story: a young black man in dreadlocks from Brooklyn who died just seven years into an exploding career.</p>
+      <p>Then, too, there was Mr. Basquiat’s artistic talent and historical significance. “He is one of the great artists of the second half of the 20th century,” said Dieter Buchhart, a curator based in Vienna and New York who has organized Basquiat exhibitions around the world. “The way he worked with words, the line and how he soaked up all the information surrounding him.”</p>
+      <p>The collectors Herb and Lenore Schorr were among Basquiat’s earliest supporters. In 1981, they bought the artist’s eight-foot-wide painting “Poison Oasis” from the New York dealer Annina Nosei for $3,500. Just two years later, they purchased another painting for $10,000 at the Fun Gallery’s one-man Basquiat show in New York.</p>
+      <p>“He had the natural skills of drawing and painting, he used words, and he represented New York, which appealed to us,” Mrs. Schorr, 75, recalled. “He was a very brilliant, charismatic young man.” Artists’ flames have died out in the past. The question is whether this one will continue to burn.</p>
+      <p>“The dimensions of Basquiat are more apparent in the world today — his impact on music, lyrics, dress — even hair — is totally integrated and embedded in our culture,” said Larry Warsh, a longtime Basquiat collector. “Jean-Michel is now connected to the greats of art history. So what do you pay for that?”</p>
+      
+      
+    </div>
+
+    <div><a class="h3-card-ochiello-small article-navigation-home" href="#article-top">Back to top</a></div>
+
+  </div>
+
+</div>
+
+</main>
+
+<footer>
+  <div class="footer-container">
+
+    <div class="footer-logo-container">
+      <a class="logo-footer" href="home.html"><img class="footer-logo-img" src="OX-logo-white.svg" alt="OX magazine logo white"></a>
+    </div>
+
+    <div class="footer-info">
+
+      <div class="footer-item">
+          <span class="span-footer">OX</span>
+          <p>
+            Via Solari 56<br>
+            Milano, Italy<br>
+            +39-366-5556-347
+          </p>
+      </div>
+
+      <div class="footer-item">
+        <span class="span-footer">Content</span>
+        <p>
+          <a href="About.html">About</a><br>
+          <a href="#">Contact</a><br>
+          <a href="#">Privacy Policy</a><br>
+          <a href="#">Terms of Service</a><br>
+        </p>
+      </div>
+
+      <div class="footer-item">
+        <span class="span-footer">Links</span>
+        <p>
+          <a href="categories-state.html">State</a><br>
+          <a href="categories-body.html">Body</a><br>
+          <a href="categories-soul.html">Soul</a>
+        </p>
+      </div>
+
+      <div class="footer-item">
+        <span class="span-footer">Network</span>
+        <p>
+          <a href="#">The HudsonBec Group</a><br>
+          <a href="#">Lecture in Progress</a><br>
+          <a href="#">Anyways Creative</a><br>
+          <a href="#">If You Could Jobs</a><br>
+        </p>
+      </div>
+
+      <div class="footer-icons-container">
+        <a href="#"><img class="footer-icon" src="instagram-icon-w.svg" alt=""></a>
+        <a href="#"><img class="footer-icon" src="facebook-icon-w.svg" alt=""></a>
+        <a href="#"><img class="footer-icon" src="twitter-icon-w.svg" alt=""></a>
+        <a href="#"><img class="footer-icon" src="behance-icon-w.svg" alt=""></a>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="footer-copyright">
+    <p>© OX 2020 | Designed & Developed by Giulia Verticchio & Franziska Bauer</p>
+  </div>
+
+</footer>
+
+<script>
+  function toggle () {
+    setTimeout(() => {  location.replace("article-HieronymusBosch.html"); }, 700);
+  }
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.1/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.1/CSSRulePlugin.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.1/ScrollTrigger.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.1/EasePack.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<script>
+  gsap.to(".img-Basquiat-1", {
+      ease: Power1.easeOut,
+      y: 260,
+      duration: 3,
+      scrollTrigger: {
+        trigger: ".img-Basquiat-1",
+        start: "top 5%",
+        end: "bottom 40%",
+        toggleActions: "play none play reverse",
+      }
+    });
+
+  gsap.to(".img-Basquiat-2", {
+      ease: Power1.easeOut,
+      y: 960,
+      duration: 6,
+      scrollTrigger: {
+        trigger: ".img-Basquiat-2",
+        start: "top 5%",
+        end: "bottom 40%",
+        toggleActions: "play none play reverse",
+        /* markers: {startColor: "green", endColor: "red", fontSize: "22px"} */
+      }
+    });
+
+    gsap.to(".img-Basquiat-3", {
+      ease: Power1.easeOut,
+      y: 400,
+      duration: 8,
+      scrollTrigger: {
+        trigger: ".img-Basquiat-3",
+        start: "top 5%",
+        end: "bottom 40%",
+        toggleActions: "play none play reverse",
+        /* markers: {startColor: "green", endColor: "red", fontSize: "22px"} */
+      }
+    });
+
+
+    $(window).scroll(function(){
+    $(".toggle-btn").css("top", Math.max(50, 300 - $(this).scrollTop()));
+  });
+</script>
+
+<script>
+  function openSearch() {
+    document.getElementById("myOverlay").style.display = "block";
+  }
+  
+  function closeSearch() {
+    document.getElementById("myOverlay").style.display = "none";
+  }
+</script>
+
+</body>
+</html>

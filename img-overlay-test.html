@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+.article-img-container {
+  position: relative;
+  width: 50%;
+}
+
+.article-img {
+  display: block;
+  width: 500px;
+  height: auto;
+}
+
+.img-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 500px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: white;
+}
+
+.article-img-container:hover .img-overlay {
+  opacity: 0.8;
+}
+
+.img-overlay-text {
+  font-family: 'Roboto Mono', monospace;
+  color: black;
+  position: absolute;
+  top: 50%;
+  width: 400px;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 1em;
+  line-height: 1.4em;
+}
+
+.img-overlay-text-title {
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.img-overlay-text-subtitle {
+  font-style: italic;
+}
+
+}
+</style>
+</head>
+<body>
+
+<h2>Fade in Overlay</h2>
+<p>Hover over the image to see the effect.</p>
+
+<div class="article-img-container">
+  <img src="images/9-Ana-Mendieta_new/Ana-Mendieta-1.jpg" alt="Ana Mendieta" class="article-img">
+  <div class="img-overlay">
+    <div class="img-overlay-text"><span class="img-overlay-text-title">Untitled 1.</span><span class="img-overlay-text-subtitle">Self-portrait with Blood</span><br>(6 works), 1973, medium: color coupler prints, size: 50.8x40.6 cm, (20x16 in.).</div>
+  </div>
+</div>
+
+</body>

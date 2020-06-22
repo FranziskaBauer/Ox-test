@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>OX – Danny Lyon</title>
+  <link rel="icon" type="image/svg" href="OX-logo-black-01.svg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+  <header>
+    <a href="home.html"><div class="logo-masthead"><img class="home-logo home-logo-masthead" src="OX-logo-black-01.svg" alt="OX magazine logo"></div></a>
+   
+    <div class="navbar">
+
+      <div class="dropdown dropdown-about">
+        <div class="dropbtn"><a href="About.html">About</a></div>
+        <div class="dropdown-content">
+        </div>
+      </div>
+
+      <div class="home-menu-item-bar home-menu-item-bar1"></div>
+
+      <div class="dropdown dropdown-info">
+        <div class="dropbtn"><a href="#">Info</a></div>
+        <div class="dropdown-content">
+        </div>
+      </div>
+
+      <div class="home-menu-item-bar home-menu-item-bar1"></div>
+
+      <div class="dropdown dropdown-categories">
+        <div class="dropbtn"><a href="#">Categories</a></div>
+        <div class="dropdown-content">
+          <a class="drop-down-item" href="categories-state.html">State</a>
+          <a class="drop-down-item" href="categories-body.html">Body</a>
+          <a class="drop-down-item" href="categories-soul.html">Soul</a>
+        </div>
+      </div>
+
+      <div class="home-menu-item-bar home-menu-item-bar1"></div>
+
+      <div class="dropdown dropdown-shop">
+        <div class="dropbtn"><a href="#">Shop</a></div>
+        <div class="dropdown-content">
+        </div>
+      </div>
+
+      <div class="home-menu-item-bar home-menu-item-bar1"></div>
+
+      <!-- search field -->
+      <div id="myOverlay" class="overlay">
+        <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
+        <div class="overlay-content">
+          <form action="home.html">
+            <input type="text" placeholder="Search..." name="search">
+            <button type="submit"><span class="search-button-go">GO!</span></button>
+          </form>
+        </div>
+      </div>
+
+      <div class="dropdown dropdown-search">
+        <div class="dropbtn"><a href="#"><button class="openBtn" onclick="openSearch()">Search</button></a></div>
+        <div class="dropdown-content">
+        </div>
+      </div>
+      <!-- search field end -->
+
+    </div>
+
+  </header>
+
+
+<main>
+
+<div class="article-page-container">
+
+
+  <div onclick="toggle()" class="toggle-btn" id="_2nd-toggle-btn">
+    <div class="toggle-text">Contrast!</div>
+    <input type="checkbox">
+    <span></span>
+  </div>
+
+  <div  class="article-container">
+
+    <div class="article-navigation">
+      <a href="Home.html"><div class="h3-card-ochiello-small article-navigation-home">Home</div></a>
+      <a href="categories-state.html"><div class="h3-card-ochiello-small article-navigation-cat">State</div></a>
+    </div>
+    <h1 id="article-top" class="article-h1 article-monospace">Art in Review; Danny Lyon</h1>
+    <p class="article-date article-monospace">April 14, 2016</p>
+    <p class="article-author article-monospace">by <span class="article-author-name">Grace Glueck</span></p>
+    <p class="article-bio article-monospace">was an arts reporter, critic, and art news editor for The New York Times  from the 1960s until the early 2010s.She graduated from New York University Glueck is the co-author, with Paul Gardner, of Brooklyn: People and Places, Past and Present (1991)and New York: The Painted City (1992). She has also written for The New Criterion and the Los Angeles Review of Books.</p>
+
+    <div class="article-running-text">
+      
+      <div class="article-img-container article-img-float-right img-DannyLyon-1">
+        <img src="images/14-Danny-Lyon/Danny_Lyon-1a.jpg" alt="Danny Lyon" class="article-img">
+        <div class="img-overlay">
+          <div class="img-overlay-text"><span class="img-overlay-text-title">The Dominoes Players. </span><span class="img-overlay-text-subtitle"></span><br>Walls Unit, TDC, 1967, Gelatin silver enlargement print 27.9x35.6 cm <br>(11x14 in.). © Danny Lyon.</div>
+        </div>
+      </div>
+
+      <div class="article-img-container article-img-float-left img-DannyLyon-2">
+        <img src="images/14-Danny-Lyon/Danny_Lyon-2a.jpg" alt="Danny Lyon" class="article-img">
+        <div class="img-overlay">
+          <div class="img-overlay-text"><span class="img-overlay-text-title">Arrest of Taylor Washington, Atlanta, 1963. </span><span class="img-overlay-text-subtitle"></span><br>Danny Lyon, Vintage gelatin silver print. Collection of the artist.<br>© Danny Lyon, courtesy Edwynn Houk Gallery, New York.</div>
+        </div>
+      </div>
+
+      <div class="article-img-container article-img-float-left img-DannyLyon-3">
+        <img src="images/14-Danny-Lyon/Danny_Lyon-3.jpg" alt="Danny Lyon" class="article-img-wide">
+        <div class="img-overlay">
+          <div class="img-overlay-text"><span class="img-overlay-text-title">Memories of the-southern civil rights movement. </span><span class="img-overlay-text-subtitle"></span>© Danny Lyon.</div>
+        </div>
+      </div>
+
+      <div class="article-img-container article-img-float-left img-DannyLyon-4">
+        <img src="images/14-Danny-Lyon/Danny_Lyon-4.jpg" alt="Danny Lyon" class="article-img-wide">
+        <div class="img-overlay">
+          <div class="img-overlay-text"><span class="img-overlay-text-title">Police in Clarksdale Mississippi. </span><span class="img-overlay-text-subtitle"></span> 1963, © Danny Lyon.</div>
+        </div>
+      </div>
+
+      <div class="article-img-container article-img-float-left img-DannyLyon-5">
+        <img src="images/14-Danny-Lyon/Danny_Lyon-5.jpg" alt="Danny Lyon" class="article-img-wide">
+        <div class="img-overlay">
+          <div class="img-overlay-text"><span class="img-overlay-text-title">Superjumbo, Protest againt the police. </span><span class="img-overlay-text-subtitle"></span>© Danny Lyon.</div>
+        </div>
+      </div>
+
+      <p class="article-paragraph-1">Biking looms large in the photographs of Danny Lyon a photo-documentarian, writer and filmmaker whose close-up-and personal shots of his fellow motorcyclists were the basis of a well-known insidery book, “The Bikeriders,” in 1968.</p>
+      <p class="article-paragraph-2">His work has always engaged the grittier aspects of American life, starting in the early 1960’s, when he followed the civil rights movement with his camera for the Student Nonviolent Coordinating Committee.</p>
+      <p class="article-paragraph-3">This rambling “re-examination” of his career presents previously unpublished outtakes from some of his projects including, besides “The Bikeriders,” a documentation of what he saw as Lower Manhattan’s destructive urban renewal, and an account of prisons and prisoners in Texas. The wide-ranging mix of nearly 60 vintage prints, virtually all from the 1960’s and some never seen before, also includes images of country people, youthful car cultists, pool players and transvestites as well as modest, low-key snapshots from his own family life and a self-portrait or two. The show starts with a glimpse of Mr. Lyon’s face in a rear-view mirror that is artfully twisted to a vertical position before a rainy windshield. It ends with a close-up of a pin-up image mounted on a shiny hubcap. The macho attraction to wheels and engines is saluted in other shots, like “Andrew Sanchez, Llanito” (1975), depicting a grease-stained tinkerer intensely involved with his auto’s innards, and “Knoxville” (1967), showing four high-testosterone youths congregated in and around a vintage convertible.</p>
+      <p class="article-paragraph-4">There are poignant images of African-American life, ranging from a pair of transvestites, Roberta and Pumpkin, to a lone young girl laboring in a field in Tallahatchie County, Miss. Also in Mississippi, a close-up of hard-bitten carnival people at a county fair, and a view of ghostly abandoned farm buildings in a field of weeds project a less-than-upbeat vision of rural America.</p>
+      <p class="article-paragraph-5">A spate of prison pictures from Texas shows men behind bars, at hard labor picking and transporting cotton and “relaxing” under close supervision by guards. From a documentary point of view, perhaps, they are important, but they are the least interesting of the strong images in this engrossing miscellany.</p>
+
+    </div>
+    <div><a class="h3-card-ochiello-small article-navigation-home" href="#article-top">Back to top</a></div>
+  </div>
+
+</div>
+
+</main>
+
+<footer>
+  <div class="footer-container">
+
+    <div class="footer-logo-container">
+      <a class="logo-footer" href="Home.html"><img class="footer-logo-img" src="OX-logo-white.svg" alt="OX magazine logo white"></a>
+    </div>
+
+    <div class="footer-info">
+
+      <div class="footer-item">
+          <span class="span-footer">OX</span>
+          <p>
+            Via Solari 56<br>
+            Milano, Italy<br>
+            +39-366-5556-347
+          </p>
+      </div>
+
+      <div class="footer-item">
+        <span class="span-footer">Content</span>
+        <p>
+          <a href="About.html">About</a><br>
+          <a href="#">Contact</a><br>
+          <a href="#">Privacy Policy</a><br>
+          <a href="#">Terms of Service</a><br>
+        </p>
+      </div>
+
+      <div class="footer-item">
+        <span class="span-footer">Links</span>
+        <p>
+          <a href="categories-state.html">State</a><br>
+          <a href="categories-body.html">Body</a><br>
+          <a href="categories-soul.html">Soul</a>
+        </p>
+      </div>
+
+      <div class="footer-item">
+        <span class="span-footer">Network</span>
+        <p>
+          <a href="#">The HudsonBec Group</a><br>
+          <a href="#">Lecture in Progress</a><br>
+          <a href="#">Anyways Creative</a><br>
+          <a href="#">If You Could Jobs</a><br>
+        </p>
+      </div>
+
+      <div class="footer-icons-container">
+        <a href="#"><img class="footer-icon" src="instagram-icon-w.svg" alt=""></a>
+        <a href="#"><img class="footer-icon" src="facebook-icon-w.svg" alt=""></a>
+        <a href="#"><img class="footer-icon" src="twitter-icon-w.svg" alt=""></a>
+        <a href="#"><img class="footer-icon" src="behance-icon-w.svg" alt=""></a>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="footer-copyright">
+    <p>© OX 2020 | Designed & Developed by Giulia Verticchio & Franziska Bauer</p>
+  </div>
+
+</footer>
+
+<script>
+  function toggle () {
+    setTimeout(() => {  location.replace("article-LeniRiefenstahl.html"); }, 700);
+  }
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.1/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.1/CSSRulePlugin.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.1/ScrollTrigger.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.1/EasePack.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<script>
+  gsap.to(".img-DannyLyon-1", {
+      ease: Power1.easeOut,
+      y: 300,
+      duration: 3,
+      scrollTrigger: {
+        trigger: ".img-DannyLyon-1",
+        start: "top 5%",
+        end: "bottom 40%",
+        toggleActions: "play none play reverse",
+      }
+    });
+</script>
+
+
+<script>
+  gsap.to(".img-DannyLyon-", {
+      ease: Power1.easeOut,
+      y: 100,
+      duration: 3,
+      scrollTrigger: {
+        trigger: ".img-DannyLyon-",
+        start: "top 5%",
+        end: "bottom 40%",
+        toggleActions: "play none play reverse",
+        /* markers: {startColor: "green", endColor: "red", fontSize: "22px"} */
+      }
+    });
+
+    $(window).scroll(function(){
+    $(".toggle-btn").css("top", Math.max(50, 300 - $(this).scrollTop()));
+  });
+</script>
+
+<script>
+  function openSearch() {
+    document.getElementById("myOverlay").style.display = "block";
+  }
+  
+  function closeSearch() {
+    document.getElementById("myOverlay").style.display = "none";
+  }
+</script>
+
+</body>
+</html>

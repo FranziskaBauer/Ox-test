@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>OX – Kusozu</title>
+  <link rel="icon" type="image/svg" href="OX-logo-black-01.svg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body class="body-black-bg">
+  
+  <header class="header-white">
+    <a href="home.html"><div class="logo-masthead"><img class="home-logo home-logo-masthead" src="OX-logo-white.svg" alt="OX magazine logo"></div></a>
+   
+    <div class="navbar-black">
+
+      <div class="dropdown dropdown-about">
+        <div class="dropbtn"><a href="About.html">About</a></div>
+        <div class="dropdown-content">
+        </div>
+      </div>
+
+      <div class="home-menu-item-bar home-menu-item-bar1 home-menu-item-bar-black"></div>
+
+      <div class="dropdown dropdown-info">
+        <div class="dropbtn"><a href="#">Info</a></div>
+        <div class="dropdown-content">
+        </div>
+      </div>
+
+      <div class="home-menu-item-bar home-menu-item-bar1 home-menu-item-bar-black"></div>
+
+      <div class="dropdown dropdown-categories">
+        <div class="dropbtn"><a href="#">Categories</a></div>
+        <div class="dropdown-content">
+          <a class="drop-down-item" href="categories-state.html">State</a>
+          <a class="drop-down-item" href="categories-body.html">Body</a>
+          <a class="drop-down-item" href="categories-soul.html">Soul</a>
+        </div>
+      </div>
+
+      <div class="home-menu-item-bar home-menu-item-bar1 home-menu-item-bar-black"></div>
+
+      <div class="dropdown dropdown-shop">
+        <div class="dropbtn"><a href="#">Shop</a></div>
+        <div class="dropdown-content">
+        </div>
+      </div>
+
+      <div class="home-menu-item-bar home-menu-item-bar1 home-menu-item-bar-black"></div>
+      
+      <!-- search field -->
+      <div id="myOverlay" class="overlay">
+        <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
+        <div class="overlay-content">
+          <form action="home.html">
+            <input type="text" placeholder="Search..." name="search">
+            <button type="submit"><span class="search-button-go">GO!</span></button>
+          </form>
+        </div>
+      </div>
+
+      <div class="dropdown dropdown-search">
+        <div class="dropbtn"><a href="#"><button class="openBtn-black" onclick="openSearch()">Search</button></a></div>
+        <div class="dropdown-content">
+        </div>
+      </div>
+      <!-- search field end -->
+
+    </div>
+
+  </header>
+
+
+<main>
+
+<div class="article-page-container white-text">
+
+
+  <div onclick="toggle()" class="toggle-btn-white" id="_2nd-toggle-btn-white">
+    <div class="toggle-text-white">Contrast!</div>
+    <input type="checkbox">
+    <span></span>
+  </div>
+
+  <div  class="article-container">
+
+    <div class="article-navigation">
+      <a href="home.html"><div class="h3-card-ochiello-small white-text article-navigation-home-white">Home</div></a>
+      <a href="categories-body.html"><div class="h3-card-ochiello-small article-navigation-cat">Body</div></a>
+    </div>
+    <h1 id="article-top" class="article-h1 article-monospace">The Beauty of Human Decompositon in Japanese Watercolor</h1>
+    <p class="article-date article-monospace">March 27, 2017</p>
+    <p class="article-author article-monospace">by <span class="article-author-name">Strangermains</span></p>
+    <p class="article-bio article-monospace">is a guest blogger for Atlas Obscura, Defrosting Cold Cases, and Forensic Magazine. He features articles on significant forensic anthropology cases and archaeological excavations, morbid history, gruesome burial traditions, skeletal collections and charnel houses, macabre art work, and human remains in the news.</p>
+
+    <div class="article-running-text-white">
+      
+      <div class="article-img-container article-img-float-right img-Kusozu-1">
+        <img src="images/10-Kusozu-Paintings/Kusozu-1.jpg" alt="Kuzozu" class="article-img">
+        <div class="img-overlay img-overlay-black">
+          <div class="img-overlay-text black-text"><span class="img-overlay-text-title">The death of a noble lady and the decay of her body, </span><span class="img-overlay-text-subtitle">panel 6 of 9.</span><br>Decomposition continues with the help of scavengers.</div>
+        </div>
+      </div>
+
+      <div class="article-img-container article-img-float-left img-Kusozu-2">
+        <img src="images/10-Kusozu-Paintings/Kusozu-2.jpg" alt="Kuzozu" class="article-img-wide">
+        <div class="img-overlay img-overlay-black">
+          <div class="img-overlay-text black-text"><span class="img-overlay-text-title">The death of a noble lady and the decay of her body, </span><span class="img-overlay-text-subtitle">panel 1 of 9.</span><br>This first painting depicts a court lady in a kimono is seated indoors with a scroll in her left hand, upon which she has written her farewell poem. Image credit: Wellcome Collections.</div>
+        </div>
+      </div>
+
+      <div class="article-img-container article-img-float-left img-Kusozu-3">
+        <img src="images/10-Kusozu-Paintings/Kusozu-3.jpg" alt="Kuzozu" class="article-img-wide">
+        <div class="img-overlay img-overlay-black">
+          <div class="img-overlay-text black-text"><span class="img-overlay-text-title">The death of a noble lady and the decay of her body, </span><span class="img-overlay-text-subtitle">panel 2 of 9.</span><br> In this painting the woman has died. She is laid on the floor covered in a blanket and is surrounded by loved ones. Image Credit: Wellcome Collection.</div>
+        </div>
+      </div>
+
+      <div class="article-img-container article-img-float-right img-Kusozu-4">
+        <img src="images/10-Kusozu-Paintings/Kusozu-4.jpg" alt="Kuzozu" class="article-img-wide">
+        <div class="img-overlay img-overlay-black">
+          <div class="img-overlay-text black-text"><span class="img-overlay-text-title">The death of a noble lady and the decay of her body, </span><span class="img-overlay-text-subtitle">panel 3 of 9.</span><br> The woman’s body has been laid outside and there are early signs of bloating and discoloration. Image Credit: The Wellcome Collection.</div>
+        </div>
+      </div>
+
+      <div class="article-img-container article-img-float-right img-Kusozu-5">
+        <img src="images/10-Kusozu-Paintings/Kusozu-5.jpg" alt="Kuzozu" class="article-img-wide">
+        <div class="img-overlay img-overlay-black">
+          <div class="img-overlay-text black-text"><span class="img-overlay-text-title">The death of a noble lady and the decay of her body, </span><span class="img-overlay-text-subtitle">panel 4 of 9.</span><br> Putrefaction has started with marbling and bloating. Image Credit: The Wellcome Collection.</div>
+        </div>
+      </div>
+
+      <div class="article-img-container article-img-float-right img-Kusozu-6">
+        <img src="images/10-Kusozu-Paintings/Kusozu-6.jpg" alt="Kuzozu" class="article-img-wide">
+        <div class="img-overlay img-overlay-black">
+          <div class="img-overlay-text black-text"><span class="img-overlay-text-title">The death of a noble lady and the decay of her body, </span><span class="img-overlay-text-subtitle">panel 5 of 9.</span><br> The body of the noble woman has entered an advance state of decay that shows purge fluid escaping the mouth, the abdominal cavity has burst open, and maybe signs of skin slippage. Image Credit: The Wellcome Collection.</div>
+        </div>
+      </div>
+
+      <div class="article-img-container article-img-float-right img-Kusozu-7">
+        <img src="images/10-Kusozu-Paintings/Kusozu-7.jpg" alt="Kuzozu" class="article-img-wide">
+        <div class="img-overlay img-overlay-black">
+          <div class="img-overlay-text black-text"><span class="img-overlay-text-title">The death of a noble lady and the decay of her body, </span><span class="img-overlay-text-subtitle">panel 6 of 9.</span><br> Decomposition continues with the help of scavengers. Image credit: Wellcome Collection.</div>
+        </div>
+      </div>
+
+      <div class="article-img-container article-img-float-right img-Kusozu-8">
+        <img src="images/10-Kusozu-Paintings/Kusozu-8.jpg" alt="Kuzozu" class="article-img-wide">
+        <div class="img-overlay img-overlay-black">
+          <div class="img-overlay-text black-text"><span class="img-overlay-text-title">The death of a noble lady and the decay of her body, </span><span class="img-overlay-text-subtitle">panel 7 of 9.</span><br> The body has started to skeletonize; much of the soft tissue has been removed. Image Credit: Wellcome Collection.</div>
+        </div>
+      </div>
+
+      <div class="article-img-container article-img-float-left img-Kusozu-9">
+        <img src="images/10-Kusozu-Paintings/Kusozu-9.jpg" alt="Kuzozu" class="article-img-wide">
+        <div class="img-overlay img-overlay-black">
+          <div class="img-overlay-text black-text"><span class="img-overlay-text-title">The death of a noble lady and the decay of her body, </span><span class="img-overlay-text-subtitle">panel 8 of 9.</span><br> The body has completely skeletonized and many of the bones have been scattered or carried away by unseen scavengers. Image Credit: Wellcome Collection.</div>
+        </div>
+      </div>
+
+
+      <p class="">I think I might be obsessed with kusozu, Japanese watercolor paintings that graphically depict human decomposition, which were popular between the 13th and 19th centuries; Body of a Courtesan in Nine Stages is another series in this genre featured previously on this site.  Kusozu works of art were inspired by Buddhist beliefs and these paintings were meant to encourage people to ponder the temporary nature of the physical world.  Kusozu watercolors also happen to be fantastic early studies of human decay and taphonomy, which is why one series, titled Kusozu: the death of a noble lady and the decay of her body, is currently on display as part of the Forensics: The Anatomy of Crime exhibit in London.</p>
+      <p>According to the Wellcome Collection, Kusozu: the death of a noble lady and the decay of her body was painted some time in the 18th century.  The below scenes include: (1) the woman’s impending death and her preparation for it;  the noble woman has just passed away and her loved ones are seated around her; (3) slight skin discoloration (maybe some liver mortis) and a bit of bloating of during early decomposition; (4) the onset of putrefaction with bloating and marbling; (5) advanced decomposition as seen by pervasive marbling, leakage of purge fluid from the mouth, and the abdominal cavity has burst open (6) caving of abdominal cavity and scavenging animals; (7) start of skeletonization and the disappearance of soft tissue; (8) complete skeletonization and scattering of remains; (9) finally human remains have been completely scattered or consumed by unseen animals so all that remains is a memorial for the deceased woman. </p>
+     
+    </div>
+
+    <div><a class="h3-card-ochiello-small article-navigation-home-white white-text" href="#article-top">Back to top</a></div>
+
+  </div>
+
+</div>
+
+</main>
+
+<footer>
+  <div class="footer-container">
+
+    <div class="footer-logo-container">
+      <a class="logo-footer" href="home.html"><img class="footer-logo-img" src="OX-logo-white.svg" alt="OX magazine logo white"></a>
+    </div>
+
+    <div class="footer-info">
+
+      <div class="footer-item">
+          <span class="span-footer">OX</span>
+          <p>
+            Via Solari 56<br>
+            Milano, Italy<br>
+            +39-366-5556-347
+          </p>
+      </div>
+
+      <div class="footer-item">
+        <span class="span-footer">Content</span>
+        <p>
+          <a href="About.html">About</a><br>
+          <a href="#">Contact</a><br>
+          <a href="#">Privacy Policy</a><br>
+          <a href="#">Terms of Service</a><br>
+        </p>
+      </div>
+
+      <div class="footer-item">
+        <span class="span-footer">Links</span>
+        <p>
+          <a href="categories-state.html">State</a><br>
+          <a href="categories-body.html">Body</a><br>
+          <a href="categories-soul.html">Soul</a>
+        </p>
+      </div>
+
+      <div class="footer-item">
+        <span class="span-footer">Network</span>
+        <p>
+          <a href="#">The HudsonBec Group</a><br>
+          <a href="#">Lecture in Progress</a><br>
+          <a href="#">Anyways Creative</a><br>
+          <a href="#">If You Could Jobs</a><br>
+        </p>
+      </div>
+
+      <div class="footer-icons-container">
+        <a href="#"><img class="footer-icon" src="instagram-icon-w.svg" alt=""></a>
+        <a href="#"><img class="footer-icon" src="facebook-icon-w.svg" alt=""></a>
+        <a href="#"><img class="footer-icon" src="twitter-icon-w.svg" alt=""></a>
+        <a href="#"><img class="footer-icon" src="behance-icon-w.svg" alt=""></a>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="footer-copyright">
+    <p>© OX 2020 | Designed & Developed by Giulia Verticchio & Franziska Bauer</p>
+  </div>
+
+</footer>
+
+<script>
+  function toggle () {
+    setTimeout(() => {  location.replace("article-AnaMendieta.html"); }, 700);
+  }
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.1/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.1/CSSRulePlugin.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.1/ScrollTrigger.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.1/EasePack.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<script>
+  gsap.to(".img-Kusozu-1", {
+      ease: Power1.easeOut,
+      y: 860,
+      duration: 5,
+      scrollTrigger: {
+        trigger: ".img-Kusozu-1",
+        start: "top 5%",
+        end: "bottom 40%",
+        toggleActions: "play none play reverse",
+        /* markers: {startColor: "green", endColor: "red", fontSize: "22px"} */
+      }
+    });
+
+    $(window).scroll(function(){
+    $(".toggle-btn-white").css("top", Math.max(50, 300 - $(this).scrollTop()));
+  });
+</script>
+
+<script>
+  function openSearch() {
+    document.getElementById("myOverlay").style.display = "block";
+  }
+  
+  function closeSearch() {
+    document.getElementById("myOverlay").style.display = "none";
+  }
+</script>
+
+</body>
+</html>

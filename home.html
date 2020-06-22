@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>OX – Home</title>
+  <link rel="icon" type="image/svg" href="OX-logo-black-01.svg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+  <header>
+    <a href="index.html"><div class="logo-masthead"><img class="home-logo home-logo-masthead" src="OX-logo-black-01.svg" alt="OX magazine logo"></div></a>
+   
+    <div class="navbar">
+
+      <div class="dropdown dropdown-about">
+        <div class="dropbtn"><a href="About.html">About</a></div>
+        <div class="dropdown-content">
+        </div>
+      </div>
+
+      <div class="home-menu-item-bar home-menu-item-bar1"></div>
+
+      <div class="dropdown dropdown-info">
+        <div class="dropbtn"><a href="#">Info</a></div>
+        <div class="dropdown-content">
+        </div>
+      </div>
+
+      <div class="home-menu-item-bar home-menu-item-bar1"></div>
+
+      <div class="dropdown dropdown-categories">
+        <div class="dropbtn"><a href="#">Categories</a></div>
+        <div class="dropdown-content">
+          <a class="drop-down-item" href="categories-state.html">State</a>
+          <a class="drop-down-item" href="categories-body.html">Body</a>
+          <a class="drop-down-item" href="categories-soul.html">Soul</a>
+        </div>
+      </div>
+
+      <div class="home-menu-item-bar home-menu-item-bar1"></div>
+
+      <div class="dropdown dropdown-shop">
+        <div class="dropbtn"><a href="#">Shop</a></div>
+        <div class="dropdown-content">
+        </div>
+      </div>
+
+      <div class="home-menu-item-bar home-menu-item-bar1"></div>
+
+      <!-- search field -->
+      <div id="myOverlay" class="overlay">
+        <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
+        <div class="overlay-content">
+          <form action="index.html">
+            <input type="text" placeholder="Search..." name="search">
+            <button type="submit"><span class="search-button-go">GO!</span></button>
+          </form>
+        </div>
+      </div>
+
+      <div class="dropdown dropdown-search">
+        <div class="dropbtn"><a href="#"><button class="openBtn" onclick="openSearch()">Search</button></a></div>
+        <div class="dropdown-content">
+        </div>
+      </div>
+<!-- search field end -->
+
+    </div>
+
+  </header>
+
+  <main>
+    <div class="home-categories-container">
+      
+      <section class="home-3categories">
+      
+        <a class="home-category home-category-state" href="categories-state.html">
+          <div class="main-projects-juxtaposition main-projects-state">
+            <div class="main-projects-images">
+              <img class="home-category-images-state-1" src="images/13-Leni-Riefensthal/Leni-Riefenstahl-img-2.jpg" alt="Leni Riefensthal Nazi Regime">
+            </div>
+            <div class="main-projects-images">
+              <img class="home-category-images-state-1" src="images/14-Danny-Lyon/Danny_Lyon-2a.jpg" alt="Danny Lyon">
+            </div>
+            <div class="home-category-overlay">State</div>
+          </div>
+          <p class="home-categories-tagline">Stories from the fist</p>
+        </a>
+
+        <div class="vertical-line-cat"></div>
+
+        <a class="home-category home-category-body" href="categories-body.html">
+          <div class="main-projects-juxtaposition main-projects-state">
+            <div class="main-projects-images">
+              <img class="home-category-images-body-1" src="images/10-Kusozu-Paintings/Kusozu-1.jpg" alt="Kusozu">
+            </div>
+            <div class="main-projects-images">
+              <img class="home-category-images-body-2" src="images/9-Ana-Mendieta_new/Ana-Mendieta-2.jpg" alt="Danny Lyon">
+            </div>
+            <div class="home-category-overlay">Body</div>
+          </div>
+          <p class="home-categories-tagline">Stories from the bones</p>
+        </a>
+
+        <div class="vertical-line-cat"></div>
+
+        <a class="home-category home-category-soul" href="categories-soul.html">
+          <div class="main-projects-juxtaposition main-projects-soul">
+            <div class="main-projects-images">
+              <img class="home-category-images-soul-1" src="images/12-Hieronymus-Bosch/Hieronymus-Bosch-1.jpg" alt="Hieronymus Bosch">
+            </div>
+            <div class="main-projects-images">
+              <img class="home-category-images-soul-2" src="images/11-Basquiat/Basquiat-2.jpg" alt="Danny Lyon">
+            </div>
+            <div class="home-category-overlay">Soul</div>
+          </div>
+          <p class="home-categories-tagline">Stories from the mind</p>
+        </a>
+
+      </section>
+
+    </div>
+    
+    <section class="article-card-container-main">
+      <div class="article-card article-card-main">
+        <a href="article-Basquiat.html"><img class="home-img-main" src="images/11-Basquiat/Basquiat-1a.jpg" alt="Basquiat"></a>
+      </div>
+      <div class="card-text-main">
+        <a href="article-Basquiat.html"><h2 class="h2-card-ochiello h2-card-ochiello-main">Soul</h2></a>
+        <h1 class="h1-card h1-card-main">How Basquiat Became the $60 Million Man</h1>
+        <p class="card-summary card-summary-main">How did a young graffiti rebel go from selling drawings for $50 in 1980 to having a painting come up for auction this week at a staggering $60 million?</p>
+        <a href="article-Basquiat.html"><p class="card-readmore card-main-readmore">read more...</p></a>
+      </div>
+    </section>
+
+
+
+    <section class="article-card-container-small">
+      
+      <div class="home-category-small">
+        <div class="main-projects-juxtaposition-small">
+          <div>
+            <a href="article-AnaMendieta.html"><img src="images/9-Ana-Mendieta_new/Ana-Mendieta-menuJPG.JPG" alt="Ana Mendieta"></a>
+          </div>
+        </div>
+        <div class="text-container-small">
+          <a href="article-AnaMendieta.html"><h3 class="h3-card-ochiello-small">Body</h3></a>
+          <h2 class="h2-card-small">Ana Mendieta<br>(1948–1985)</h2>
+          <p class="card-summary card-summary-small">It’s commonplace to note when exhibitions offer a timely opportunity to reconsider an artist’s work, but in Ana Mendieta’s case such observations are as disturbing as they are apt.</p>
+          <a href="article-AnaMendieta.html"><p class="card-readmore card-readmore-small">Read more...</p></a>
+        </div>
+      </div>
+
+      <div class="vertical-line-small"></div>
+
+      <div class="home-category-small">
+        <div class="main-projects-juxtaposition-small">
+          <div>
+            <a href="article-HieronymusBosch.html"><img src="images/12-Hieronymus-Bosch/Hieronymus-Bosch-3.jpg" alt="Hieronymus Bosch"></a>
+          </div>
+        </div>
+        <div class="text-container-small">
+          <a href="article-HieronymusBosch.html"><h3 class="h3-card-ochiello-small">Soul</h3></a>
+          <h2 class="h2-card-small">Hiëronymus Bosch</h2>
+          <p class="card-summary card-summary-small">Hiëronymus Bosch, also spelled Jheronimus Bos, pseudonym of Jeroen van Aeken, Aeken also spelled Aquen or Aken...</p>
+          <a href="article-HieronymusBosch.html"><p class="card-readmore card-readmore-small">Read more...</p></a>
+        </div>
+      </div>
+
+      <div class="vertical-line-small"></div>
+
+      <div class="home-category-small">
+        <div class="main-projects-juxtaposition-small">
+          <div>
+            <a href="article-Kusozu.html"><img src="images/10-Kusozu-Paintings/Kusozu-2.jpg" alt="Kusozu"></a>
+          </div>
+        </div>
+        <div class="text-container-small">
+          <a href="article-Kusozu.html"><h3 class="h3-card-ochiello-small">Body</h3></a>
+          <h2 class="h2-card-small">The beauty of human decomposition</h2>
+          <p class="card-summary card-summary-small">According to the Wellcome Collection, Kusozu: the death of a noble lady and the decay of her body was painted some time in the 18th century…</p>
+          <a href="article-Kusozu.html"><p class="card-readmore card-readmore-small">Read more...</p></a>
+        </div>
+      </div>
+      
+      <div class="vertical-line-small"></div>
+
+      <div class="home-category-small">
+        <div class="main-projects-juxtaposition-small">
+          <div>
+            <a href="article-DannyLyon.html"><img src="images/14-Danny-Lyon/Danny_Lyon-2a.jpg" alt="Danny Lyon"></a>
+          </div>
+        </div>
+        <div class="text-container-small">
+          <a href="article-DannyLyon.html"><h3 class="h3-card-ochiello-small">State</h3></a>
+          <h2 class="h2-card-small">Art in Review;<br>Danny Lyon</h2>
+          <p class="card-summary card-summary-small">Biking looms large in the photographs of Danny Lyon a photo-documentarian, writer and filmmaker whose close-up-and personal shots of his fellow…</p>
+          <a href="article-DannyLyon.html"><p class="card-readmore card-readmore-small">Read more...</p></a>
+        </div>
+      </div>
+
+    </section>
+
+    <div class="home-horizontal-line"></div>
+
+    <section class="article-card-container-small article-card-container-small-3">
+      
+      <div class="home-category-small">
+        <div class="main-projects-juxtaposition-small main-projects-juxtaposition-small-3">
+          <div>
+            <a href="#"><img src="images/1-A-Digital-Archive-Egyptian-Revolution/1-A-Digital-Archive-Egyptian-Revolution-img-1.jpg" alt="Egyptian Revolution"></a>
+          </div>
+        </div>
+        <div class="text-container-small">
+          <a href="#"><h3 class="h3-card-ochiello-small">Soul</h3></a>
+          <h2 class="h2-card-small">A Digital Archive of the 2011 Egyptian Revolution, From Graffiti to Music</h2>
+          <p class="card-summary card-summary-small">The rich online resource, spearheaded by researcher Nicola Pratt, reveals how culture was “an outlet” for political views during the revolution and its aftermath...</p>
+          <a href="#"><p class="card-readmore card-readmore-small">Read more...</p></a>
+        </div>
+      </div>
+
+      <div class="vertical-line-small"></div>
+
+      <div class="home-category-small">
+        <div class="main-projects-juxtaposition-small main-projects-juxtaposition-small-3">
+          <div>
+            <a href="#"><img src="images/16-Elizabeth-Catlett/Elizabeth-Catlett-img-2.jpg" alt="Elizabeth Catlett"></a>
+          </div>
+        </div>
+        <div class="text-container-small">
+          <a href="#"><h3 class="h3-card-ochiello-small">Body</h3></a>
+          <h2 class="h2-card-small">Elizabeth Catlett: a Sculptor with Eye on Social Issues</h2>
+          <p class="card-summary card-summary-small">Elizabeth Catlett, whose abstracted sculptures of the human form reflected her deep concern with the African-American experience and the struggle for civil rights, died on Monday at her home in Cuernavaca, Mexico, where she had lived since the late 1940s...</p>
+          <a href="#"><p class="card-readmore card-readmore-small">Read more...</p></a>
+        </div>
+      </div>
+
+      <div class="vertical-line-small"></div>
+
+      <div class="home-category-small">
+        <div class="main-projects-juxtaposition-small main-projects-juxtaposition-small-3">
+          <div>
+            <a href="#"><img src="images/5-New-Objectivity-Artists-Exposed-the-Decadence-and-Hypocrisy-of-German-Society/5-New-Objectivity-Artist-img-1.jpg" alt="New Objectivity"></a>
+          </div>
+        </div>
+        <div class="text-container-small">
+          <a href="#"><h3 class="h3-card-ochiello-small">State</h3></a>
+          <h2 class="h2-card-small">New Objectivity Artists Exposed the Decadence and Hypocrisy of German Society</h2>
+          <p class="card-summary card-summary-small">Many German artists entered World War I enthusiastically, believing it would bring about positive social change...</p>
+          <a href="article-Kusozu.html"><p class="card-readmore card-readmore-small">Read more...</p></a>
+        </div>
+      </div>
+      
+     <!--  <div class="vertical-line-small"></div>
+
+      <div class="home-category-small">
+        <div class="main-projects-juxtaposition-small">
+          <div>
+            <a href="#"><img src="images/2-Frida-Kahlo/2-Frida-Kahlo-img-1.jpg" alt="Frida Kahlo"></a>
+          </div>
+        </div>
+        <div class="text-container-small">
+          <a href="#"><h3 class="h3-card-ochiello-small">Soul</h3></a>
+          <h2 class="h2-card-small">Marxist, Nationalist, Feminist: The Art and Politics of Frida Kahlo</h2>
+          <p class="card-summary card-summary-small">He is a postgraduate student with an academic background in language, literature, and political science. During his studies, he gained several years of experience working in the field of foreign language education...</p>
+          <a href="#"><p class="card-readmore card-readmore-small">Read more...</p></a>
+        </div>
+      </div>
+ -->
+    </section>
+
+
+  </main>
+
+
+
+
+  <footer>
+    <div class="footer-container">
+
+      <div class="footer-logo-container">
+        <a class="logo-footer" href="#"><img class="footer-logo-img" src="OX-logo-white.svg" alt="OX magazine logo white"></a>
+      </div>
+
+      <div class="footer-info">
+
+        <div class="footer-item">
+            <span class="span-footer">OX</span>
+            <p>
+              Via Solari 56<br>
+              Milano, Italy<br>
+              +39-366-5556-347
+            </p>
+        </div>
+
+        <div class="footer-item">
+          <span class="span-footer">Content</span>
+          <p>
+            <a href="About.html">About</a><br>
+            <a href="#">Contact</a><br>
+            <a href="#">Privacy Policy</a><br>
+            <a href="#">Terms of Service</a><br>
+          </p>
+        </div>
+
+        <div class="footer-item">
+          <span class="span-footer">Links</span>
+          <p>
+            <a href="categories-state.html">State</a><br>
+            <a href="categories-body.html">Body</a><br>
+            <a href="categories-soul.html">Soul</a>
+          </p>
+        </div>
+
+        <div class="footer-item">
+          <span class="span-footer">Network</span>
+          <p>
+            <a href="#">The HudsonBec Group</a><br>
+            <a href="#">Lecture in Progress</a><br>
+            <a href="#">Anyways Creative</a><br>
+            <a href="#">If You Could Jobs</a><br>
+          </p>
+        </div>
+
+        <div class="footer-icons-container">
+          <a href="#"><img class="footer-icon" src="instagram-icon-w.svg" alt=""></a>
+          <a href="#"><img class="footer-icon" src="facebook-icon-w.svg" alt=""></a>
+          <a href="#"><img class="footer-icon" src="twitter-icon-w.svg" alt=""></a>
+          <a href="#"><img class="footer-icon" src="behance-icon-w.svg" alt=""></a>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="footer-copyright">
+      <p>© OX 2020 | Designed & Developed by Giulia Verticchio & Franziska Bauer</p>
+    </div>
+
+  </footer>
+
+
+  <script>
+    function openSearch() {
+      document.getElementById("myOverlay").style.display = "block";
+    }
+    
+    function closeSearch() {
+      document.getElementById("myOverlay").style.display = "none";
+    }
+    </script>
+</body>
+</html>
